@@ -1,0 +1,35 @@
+.solarized-light{
+    background-color: #fdf6e3;
+    color: #93a1a1;
+}
+.solarized-dark{
+    background-color: #073642;
+    color: #657b83;
+}
+.monokai{
+    background-color: #272822;
+    color: #d6d6d6;
+}
+.dracula{
+    background-color: #282a36;
+    
+}
+.gruvbox{
+    background-color: #1d2021;
+    color: #bfb395;
+}
+.nord-dark{
+    background-color: #2e3440;
+    color: #aab1bc;
+}
+.tomorrow{
+    background-color: #ffffff;
+    color: #7c7c7b;
+}
+
+.forLight{
+    color: #93a1a1;
+}
+.forDark{
+    color: #e7e4e3;
+}
