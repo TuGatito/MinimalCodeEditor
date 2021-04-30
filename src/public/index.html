@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Edtitor</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/icons.css">
+  <link rel="stylesheet" href="./css/colors.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="firaCode font-medium">
+  <!-- Main container -->
+  <div class="container">
+    <!-- Nav Container -->
+    <div class="nav-container">
+      <!-- Navbar -->
+      <nav class="nav">
+      
+        <!-- Close Button -->
+        <div class="buttons">
+          <button class="close-button gg-close-r" id="CloseWindowButton"></button>
+          
+        </div>
+        <!-- Close Button -->
+        <div class="dragger"></div>
+        <div id="optionsInput" class="options justify-center" style="-webkit-app-region: drag">
+          
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </div>
+    <!-- Nav Container --> 
+    <!-- Text Area Container -->
+    <div class="textarea-container">
+      <!-- TextArea -->
+      <div class="textarea font-medium" id="TextEditor">
+      </div>
+      <!-- TextArea -->
+    </div>
+    <!-- TextArea Container -->
+    <!-- Footer Container -->
+    <div class="footer-container">
+      <p class="fileName" id="EditingFileText">¡Open a file!</p>
+    </div>
+    <!-- Footer Container -->
+  </div>
+  <!-- Main container -->
+
+
+
+  <!-- Lib Scripts -->
+  <script src="./libs/ace-js/ace.js"></script>
+  <script src="./libs/ace-js/ext-language_tools.js"></script>
+  <script src="./libs/ace-js/ext-emmet.js"></script>
+  <script src="./libs/ace-js/ext-modelist.js"></script>
+
+  <script src="./libs/keymage/keymage.min.js"></script> 
+
+  <script src="./libs/picomodal/picomodal.min.js"></script>
+
+  <!-- Editor Scripts-->
+  <script src="./js/editor.js"></script>
+
+  <!-- UI Scripts -->
+  <script src="./js/ui.js"></script>
+</body>
+</html>
